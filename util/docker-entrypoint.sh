@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+# build font cache
+mkfontscale
 # Cleanup www folder
 rm -rf /var/www
 # Copy and install the latest & greatest Latex-Online
